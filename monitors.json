@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Sales alerts",
+    "repo": "riadmrad1992-blip/shopify-sales-alerts",
+    "workflow": "daily.yml",
+    "schedule": "Daily at 06:00 UTC",
+    "max_age_hours": 26
+  },
+  {
+    "name": "Profit dashboard",
+    "repo": "riadmrad1992-blip/shopify-profit-dashboard",
+    "workflow": "dashboard.yml",
+    "schedule": "Daily at 06:15 UTC",
+    "max_age_hours": 26,
+    "data_url": "https://riadmrad1992-blip.github.io/shopify-profit-dashboard/data.json",
+    "data_max_age_hours": 26
+  },
+  {
+    "name": "Support triage",
+    "repo": "riadmrad1992-blip/shopify-support-triage",
+    "workflow": "triage.yml",
+    "schedule": "Every 15 minutes",
+    "max_age_hours": 2
+  }
+]
